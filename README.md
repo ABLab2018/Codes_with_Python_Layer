@@ -29,6 +29,7 @@
 **Step 6**: Finally, combine all potential files into one file using extract-all-pot-into-1-file.ipynb.
 
 [##<ins> **Two-body-potential**</ins>](https://github.com/ABLab2018/Codes_with_Python_Layer/tree/main/two-body-potential)
+
 **Step 1**:Calculate two body contacts using all-contact-and-actual-contact.ipynb ( here shown for cut off range 0-5 )
 
 **Step 2**: Calculate individual probabilites using individual-probability-all-aminoacids.ipynb

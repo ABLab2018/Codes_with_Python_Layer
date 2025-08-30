@@ -1,7 +1,10 @@
 [##<ins> **Non-native-conformation-generation-by-threading**</ins>](https://github.com/ABLab2018/Codes_with_Python_Layer/tree/main/threading-conformation-generation)
 **Step 1**: Extract Calpha coordinates of the target proteins using coord-ext-CA-pro.ipynb
+
 **Step 2**: Get the Calpha coordinates of all proteins taken for non-native conformation generation using threading-conf-gen.ipynb
+
 **Step 3**: Combine extracted Calpha coordinates of targets with the Calpha coordinates of generated non-native conformations (two targets, two such files)
+
 **Step 4**: Convert each protein coordinates them into individual pdb files to calculate RMSD with target using pdb.ipynb
 **Step 5**: Calculate Contact profile for both using contact-profile.ipynb (Here, showing for only 2LHC)
 **Step 6**: calculate nearest 10 Calpha distances for each site in each protein using calculate-CA-distance.ipynb (Do this for both targets)
